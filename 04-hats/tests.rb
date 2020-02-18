@@ -1,4 +1,4 @@
-require_relative 'index'
+require_relative "index"
 
 describe 'the_hats_problem ' do
   it 'is defined' do

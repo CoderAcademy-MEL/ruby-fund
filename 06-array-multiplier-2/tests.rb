@@ -1,4 +1,4 @@
-require_relative '/home/answer'
+require_relative 'index'
 
 describe 'ten_mult ' do
     it 'is defined' do
