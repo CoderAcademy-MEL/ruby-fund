@@ -1,4 +1,5 @@
-require_relative '/home/answer.rb'
+require_relative 'index'
+
 describe 'sum_of_array ' do
     it 'is defined' do
         expect(defined? sum_of_array).to eql('method')

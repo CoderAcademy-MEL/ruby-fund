@@ -1,4 +1,4 @@
-require_relative '/home/answer.rb'
+require_relative 'index'
 
 describe 'calculate_area ' do
     it 'is defined' do

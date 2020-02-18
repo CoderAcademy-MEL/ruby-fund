@@ -1,4 +1,4 @@
-require_relative '/home/answer.rb'
+require_relative 'index'
 
 describe 'true_or_false ' do
     it 'is defined' do

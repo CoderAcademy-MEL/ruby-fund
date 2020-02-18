@@ -1,4 +1,4 @@
-require_relative '/home/answer.rb'
+require_relative 'index'
 
 describe 'exponent_plus' do
     it 'is defined' do
