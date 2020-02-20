@@ -10,13 +10,6 @@ describe 'isogram?' do
       expect(method(:isogram?).parameters.length).to eql(1)
     end
 
-    it 'takes a String as its argument' do
-      expect(self).to receive(:isogram?) do |arg|
-        expect(arg.class).to eql(String)
-      end
-      isogram?('hello')
-    end
-
     it 'returns a boolean value' do
       expect(isogram?('a')).to be_a(TrueClass).or be_a(FalseClass)
     end
