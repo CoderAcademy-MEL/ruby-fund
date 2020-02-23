@@ -34,8 +34,8 @@ describe 'calculate_table_volume ' do
     expect { calculate_table_volume(15, 30, 70) }.to_not raise_error
   end
   it 'returns the volume of the given three numbers' do
-    expected = 15750
+    expected = 15_750
     actual = calculate_table_volume(15, 30, 70)
-    expect(actual).to eql(expected).or eql(15750.0)
+    expect(actual).to eql(expected).or eql(15_750.0)
   end
 end
