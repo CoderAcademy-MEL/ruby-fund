@@ -1,5 +1,16 @@
 Style/StringLiterals:
   Enabled: false
 
-Metrics/LineLength:
-  Max: 150
+Layout/LineLength:
+  Max: 1000
+
+Style/AsciiComments:
+  Enabled: false
+
+Metrics/BlockLength:
+  ExcludedMethods: [
+    'describe', 'context'
+  ]
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
