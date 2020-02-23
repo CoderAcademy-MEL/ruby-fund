@@ -57,7 +57,7 @@ describe "calculate_building should" do
     width = 14
     length = 28
     levels = 1
-    result = { :total_apartments => 14, :total_money_made => 1680000 }
+    result = { total_apartments: 14, total_money_made: 1_680_000 }
     actual = calculate_building(length, width, levels)
     expect(actual).to eql(result)
   end
@@ -65,7 +65,7 @@ describe "calculate_building should" do
     width = 14
     length = 28
     levels = 3
-    result = { :total_apartments => 42, :total_money_made => 5040000 }
+    result = { total_apartments: 42, total_money_made: 5_040_000 }
     actual = calculate_building(length, width, levels)
     expect(actual).to eql(result)
   end
