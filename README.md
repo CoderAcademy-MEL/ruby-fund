@@ -18,6 +18,26 @@ Read the requirements and then run the tests straight away to see what's failing
 
 ## Instructions
 
+### To Get Access To Challenges and Using Git and GitHub
+
+To get access to these challenge you'll be using a tool called git locally on your computers.
+
+This will allow you to connect to a remote tool called GitHub and also to work in an isolated branch to avoid conflicts if teachers are to post any changes.
+
+This will be the process you need to follow to get the challenges.
+
+1. Ensure you have a GitHub account https://github.com/ 
+
+2. `cd` into the particular directory where you want all of these challenges to be, inside the `coder-academy` directory should be fine
+
+3. Run this command from the command line `git clone https://github.com/CoderAcademy-MEL/ruby-fund.git` to get the code files and tests
+
+4. Change to the working space (or branch) needed to solve your challenges in order to avoid any conflicts `git checkout -b solutions`
+
+5. Verify that you're the solutions branch with `git branch` before you start working, make sure you do this every time you try to solve these challenges
+
+### To Solve the Challenges and Run Tests
+
 This will be the process you need to follow for the first question.
 
 1. Change into the directory with the specific challenge
