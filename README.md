@@ -30,7 +30,7 @@ This will be the process you need to follow to get the challenges.
 
 2. `cd` into the particular directory where you want all of these challenges to be, inside the `coder-academy` directory should be fine
 
-3. Run this command from the command line `git clone https://github.com/CoderAcademy-MEL/ruby-fund.git` to get the code files and tests
+3. Run this command from the command line `git clone https://github.com/CoderAcademy-MEL/ruby-fund.git` to get the code files and tests, you'll need to enter your Github username and password
 
 4. Change to the working space (or branch) needed to solve your challenges in order to avoid any conflicts `git checkout -b solutions`
 
