@@ -1,13 +1,15 @@
 require_relative "index"
 require_relative "../13-tax/index"
 
-# calculate_tax_payable(50000)
-
-describe "guess_percentage should" do
+describe "tax_difference should" do
   it "be defined" do
-    expect(defined? guess_percentage).to eql("method")
+    expect(defined? tax_difference).to eql("method")
   end
-  it "return an integer" do
-    expect(guess_percentage).to be_an_instance_of(Integer)
-  end
+  it "return the correct values #1" do 
+    expect(tax_difference(100_000, 20)).to eql({:guess=>20, :actual_percentage=>24.632, :difference=>4})
+  end 
+  it "return the correct values #2" do 
+    expect(tax_difference(60_000, 50)).to eql({:guess=>50, :actual_percentage=>18.41166666666667, :difference=>32})
+  end 
 end
+
