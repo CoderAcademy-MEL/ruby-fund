@@ -15,6 +15,9 @@ Style/HashTransformKeys:
 
 Style/HashTransformValues:
   Enabled: false
+  
+Style/WordArray:
+  Enabled: false
 
 Metrics/BlockLength:
   ExcludedMethods: [

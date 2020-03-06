@@ -23,7 +23,7 @@ describe '#word_balance' do
     end
 
     it 'when given "ipfbdbd" returns "f"' do
-      expect(word_balance('ipfbdbd')).to eql('f')      
+      expect(word_balance('ipfbdbd')).to eql('f')
     end
   end
 end
