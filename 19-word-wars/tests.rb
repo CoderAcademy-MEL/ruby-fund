@@ -3,11 +3,11 @@ require_relative 'word_wars'
 describe '#battle' do
   context 'when properly defined' do
     it 'be defined' do
-      expect(defined?(battle)).to eq('method')
+      expect(defined?(battle)).to eql('method')
     end
 
     it 'takes two arguments' do
-      expect(method(:battle).parameters.length).to eq(2)
+      expect(method(:battle).parameters.length).to eql(2)
     end
 
     it 'returns one of the inputed strings' do
